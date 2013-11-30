@@ -29,7 +29,7 @@ FORWARD _PROTOTYPE( void balance_queues, (struct timer *tp)		);
 
  
  /*==========================================================================*
-  *				get_lottery_pick				     *
+  *				 get_lottery_pick				     *
   *===========================================================================*/
  PUBLIC int get_lottery_pick()
  {
