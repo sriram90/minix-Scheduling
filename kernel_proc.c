@@ -617,7 +617,7 @@ PRIVATE int mini_receive(
   bitchunk_t *chunk;
   int i, r, src_id, src_proc_nr, src_p;
   phys_bytes linaddr;
-
+lo
   assert(!(caller_ptr->p_misc_flags & MF_DELIVERMSG));
 
   if(!(linaddr = umap_local(caller_ptr, D, (vir_bytes) m_ptr,
